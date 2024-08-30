@@ -1,0 +1,12 @@
+body{
+    background-color: chocolate;
+}
+p{
+    color: azure;
+    font-size: 2em;
+}
+h1{
+    text-align: center;
+    background-color: aqua;
+    color: rgb(249, 6, 71);
+}

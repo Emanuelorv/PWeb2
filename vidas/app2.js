@@ -1,0 +1,1 @@
+let numeroMaquina = Math.floor(Math.random())
