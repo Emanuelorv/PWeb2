@@ -7,5 +7,13 @@ let vidas = 3;
 
 while(numeroMaquina !== numeroUser && vidas>1){
     vidas--;
-    numeroUser
+    numeroUser = parseInt(prompt("Intenta nuevamente y tus vidas son: "+vidas));
+}
+
+if (numeroMaquina == numeroUser){
+    alert("Ganaste")
+    console.log("Ganaste");
+}else{
+    alert("Perdiste el número era: "+numeroMaquina)
+    console.log("Perdiste el número era: "+numeroMaquina);
 }
