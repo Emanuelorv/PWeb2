@@ -11,3 +11,7 @@ console.log("Las frutas que compraste son: ")
 for(let valoresArreglo of compras){
     console.log(valoresArreglo)
 }
+
+compras.forEach((fruta, index)=>{
+    console.log(`${index+1} .- ${fruta}`)
+})

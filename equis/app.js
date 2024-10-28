@@ -1,8 +1,26 @@
-/*ejercicio 1
-console.log(`xxxx\nx\nx\nx`)
-alert(`xxxx\nx\nx\nx`)
+/*
+//ejercicio 1 Version 1
+console.log(`xxxx`)
+console.log('x\nx\nx\nx')
+alert(`xxxx`)
+alert('x\nx\nx\nx')
 */
+//ejercicio 1 Version calmada
+let horizontal  = []
+let vertical = []
+for (let i=0; i<4; i++){
+    horizontal.push("x")
+}
+for (let i=0; i<4; i++){
+    vertical.push("x")
+} 
+horizo = horizontal.join("")
+verti = vertical.join("\n")
 
+console.log(horizo)
+console.log(verti)
+alert(horizo)
+alert(verti)
 /*
 //ejercicio 1 version más limpia y bonita
 let horizontal  = []
@@ -96,7 +114,7 @@ console.log(cuadrado);
 alert(cuadrado);
 */
 
-
+/*
 //Tablas de Multiplicar
 let tablas = [];
 for (let i = 1; i <= 10; i++) {
@@ -109,3 +127,4 @@ for (let i = 1; i <= 10; i++) {
 let tablasSL = tablas.join('\n');
 console.log(tablasSL);
 alert(tablasSL);
+*/
